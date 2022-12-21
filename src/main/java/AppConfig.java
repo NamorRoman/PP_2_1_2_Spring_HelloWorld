@@ -18,6 +18,6 @@ public class AppConfig {
     public Cat getCat() {
         Cat cat = new Cat();
         cat.setField("Meow!");
-        return new Cat();
+        return cat;
     }
 }

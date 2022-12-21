@@ -13,10 +13,10 @@ public class App {
         Cat catBean1 = applicationContext.getBean("cat", Cat.class);
         Cat catBean2 = applicationContext.getBean("cat", Cat.class);
 
-        System.out.println(bean == myBean ? "\"Hello world\" beans is equal"
+        System.out.println(bean == myBean ? "\"Hello world\" beans are equal"
                 : "\"Hello world\" beans are not equal");
 
-        System.out.println(catBean1 == catBean2 ? "\"Cat\" beans is equal"
+        System.out.println(catBean1 == catBean2 ? "\"Cat\" beans are equal"
                 : "\"Cat\" beans are not equal");
     }
 }
